@@ -2,27 +2,29 @@
   display: flex;
   flex-direction: column;
 }
-.forward {
+.wrap-slider .forward {
   margin-left: auto;
   margin-right: 18px;
   color: #808080;
   font-size: 15px;
   margin-top: 25px;
 }
-.wrap-card {
-  padding-top: 21px;
+.wrap-slider .wrap-card {
+  padding-top: 20px;
   justify-content: center;
   display: flex;
   flex-direction: column;
   margin-left: 32px;
   margin-right: 33px;
 }
-img {
+.wrap-slider .img {
   margin-left: auto;
   margin-right: auto;
-  width: fit-content;
+  background-image: url(../../assets/экран.png);
+  background-position: center;
+  background-size: cover;
 }
-.title {
+.wrap-slider .title {
   margin-top: 28px;
   margin-bottom: 12px;
   color: #333333;
@@ -31,28 +33,28 @@ img {
   align-items: center;
   text-align: center;
 }
-.text {
+.wrap-slider .text {
   text-align: center;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
-.pagination {
+.wrap-slider .pagination {
   display: inline-flex;
   justify-content: center;
 }
-.point {
+.wrap-slider .point {
   margin-right: 16px;
   margin-bottom: 40px;
-  height: 2px;
-  width: 2px;
+  height: 5px;
+  width: 5px;
   background-color: #D8D8D8;
   border-radius: 50%;
 }
-.point.active {
-  width: 5px;
-  height: 5px;
+.wrap-slider .point.active {
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   background-color: #9B243E;
 }
-.pagination:last-child {
+.wrap-slider .pagination:last-child {
   margin-right: 0;
 }
